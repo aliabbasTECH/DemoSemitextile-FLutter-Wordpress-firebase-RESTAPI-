@@ -63,7 +63,7 @@ class InnerServices extends StatelessWidget {
                                   context,
                                   MaterialPageRoute(
                                     builder: (context) =>
-                                        EmailSender(TitleData: title ),
+                                        FormScreen(),
                                   ),
                                 );
                            },

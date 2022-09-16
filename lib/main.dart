@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.purple,
       ),
       home: MyhomePage(),
     );
@@ -27,12 +27,9 @@ class MyhomePage extends StatefulWidget {
 class _MyhomePageState extends State<MyhomePage> {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child:Center(
+    return 
+      Center(
           child:  Container(child: OurServices(),)
-      ),
-      
-
     );
   }
 }
